@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fdfdfd;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 5px 20px rgb(252, 253, 255);
+    
+}
+.nav-left{
+ height: 40px;
+ width: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+#logo{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 400ms ease-in-out;
+}
+#logo:hover{
+    transform: scale(1.1);
+}
+.nav-mid{
+    width: 800px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 400ms ease-in-out;
+    border-radius: 30px;
+}
+.nav-item:hover{
+    background-color: hsl(9, 68%, 56%);
+    color:rgb(255, 255, 255)
+}
+.nav-right{
+    width: 130px;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    background-color: hsl(9, 68%, 56%);
+    
+    
+}
+.nav-right:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+.navbar-2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 162, 162);
+    border: 1px solid black;
+}
+.navbar-2-item{
+    width: 550px;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-items: center;
+    font-size: 10px;
+}
+.mark{
+    display: flex;
+    height: 600px;
+    padding:80px;
+}
+.left{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.download{
+    width: 350px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(0, 0, 0);
+    transform: scale(0.5);
+    font-size: 30px;
+    font-weight: bold;
+    color: #fdfdfd;
+    border-radius: 20px;
+}
+.download:hover{
+    border-radius: 50px;
+    cursor: pointer;
+    transform: scale(0.6);
+    
+
+}
+.container-2{
+    height: 300px;
+    width: 100%;
+    background-color:  rgb(255, 162, 162);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    
+    
+}
+.container-2-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.box-1:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #28495378;
+}
+.box-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.box-2:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #28495378;
+}
+.box-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.box-3:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #28495378;
+}
+.box-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.box-4:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #28495378;
+}
+.box-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.box-5:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #28495378;
+}
+.container-3{
+    height: 300px;
+    width: 100%;
+    background-color:rgb(255, 162, 162);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+.container-3-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+
+    
+}
+.box-1-1:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #28495378;
+    
+}
+
+.box-2-2:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #28495378;
+    
+}
+
+.box-3-3:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #28495378;
+    
+}
+
+.box-4-4:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #28495378;
+    
+}
+
+
+
+
+
+    .container-4{
+        display: flex;
+        flex-direction: column;
+        align-items: last baseline;
+        width: 100%;
+        justify-content: space-evenly;
+        background-color: rgb(233, 230, 227);
+        border: 1px solid black;
+        
+
+}
+.container-5{
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(255, 253, 252);
+    text-align: left;
+
+}
+.item-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ns1{
+    height: 50px;
+    width: 15%;
+    
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 550px;
+    
+    
+}
+.ns1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.ns2{
+    height: 50px;
+    width: 15%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(232, 240, 248);
+    position: relative;
+    left: 550px;
+    
+    
+}
+.ns2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.right1{
+    position: relative;
+    right: 100px;
+    
+}
+.container-6{
+    
+    position: relative;
+   text-align: center;
+    background-color: hsl(9, 68%, 56%);
+   align-items: center;
+   border: 1px solid black;
+}
+
+    
+
+
+
